@@ -1,0 +1,1 @@
+let name = document.getElementById('recipe_name');

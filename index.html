@@ -7,15 +7,45 @@
     </head>
 
     <body>
-        <label for="categories">Choose a category:</label>
-        <select name="category" id="categories">
-            <option value="chicken">Chicken</option>
-            <option value="lentil">Lentil</option>
-        </select>
 
-        <label for="recipes">Choose a recipe:</label>
-        <select name="recipe" id="recipes">
-            <option value=""></option>
-        </select>
+        <header>
+            <h1>The Recipe Box</h1>
+        </header>
+
+        <nav>
+            <label for="categories">Choose a category:</label>
+            <select name="category" id="categories">
+                <option value="chicken">Chicken</option>
+                <option value="lentil">Lentil</option>
+            </select>
+
+            <br><br>
+
+            <label for="recipes">Choose a recipe:</label>
+            <select name="recipe" id="recipes">
+                <option value="tikka_masala">Chicken Tikka Masala</option>
+            </select>
+        </nav>
+
+        <main>
+            <h2 id="recipe_name">Name Here</h2>
+
+            <h3>Ingredients</h3>
+            <ul></ul>
+
+            <h3>Directions</h3>
+            <p></p>
+
+            <h4>Untried(?)</h4>
+
+            <h4>Notes</h4>
+            <p id="notes"></p>
+
+            <h4>Credits</h4>
+            <a href="" target="_blank" id="link"></a>
+        </main>
+
+        <script src="main.js"></script>
+
     </body>
 </html>
